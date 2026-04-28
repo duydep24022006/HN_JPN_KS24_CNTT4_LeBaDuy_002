@@ -22,6 +22,8 @@ public class Cntt4LeBaDuyApplication {
         return args -> {
             if (repo.count() == 0) {
                 repo.saveAll(List.of(
+
+
                         new Artifact("Hiện vật 1", "Nguồn gốc A", LocalDate.now()),
                         new Artifact("Hiện vật 2", "Nguồn gốc B", LocalDate.now()),
                         new Artifact("Hiện vật 3", "Nguồn gốc C", LocalDate.now()),
